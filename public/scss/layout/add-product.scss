@@ -1,0 +1,54 @@
+@import '../base/reset';
+
+@import '../components/header';
+
+
+.form_product {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 1rem;
+  text-align: left;
+  margin-top: 4rem;
+  border: 1.5px solid #353535;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.form_header {
+  padding-bottom: 1rem;
+  display: block;
+  color: #111;
+  font-size: 1.7rem;
+}
+
+.form_label {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.form_tB {
+  display: block;
+  width: 100%;
+  padding: .5rem;
+
+  &:focus {
+    outline-color: rgba($color: #1aad3f, $alpha: .5);
+    outline-width: 1rem;
+  }
+}
+
+.form_btn {
+  padding: .5rem;
+  background-color: #1aad3f;
+  color: #fff;
+  border: 1px solid #1aad3f;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:active {
+    outline-color: darken($color: #1aad3f, $amount: 1.4);
+    ;
+  }
+}

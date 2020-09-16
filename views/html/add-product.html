@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/add-product.css" />
+    <title>Add Product</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <center class="nav_center">
+          <h1 class="nav_logo">Express JS</h1>
+          <ul class="nav_list">
+            <li class="nav_list_item">
+              <a class="nav_list_link" href="../shop.html">Shop</a>
+            </li>
+            <li class="nav_list_item">
+              <a class="nav_list_link" href="./add-product.html">Add Product</a>
+            </li>
+          </ul>
+        </center>
+      </nav>
+    </header>
+
+    <main>
+      <center>
+
+        <form class="form_product" action="/submit" method="POST">
+          <h1 class="form_header">
+            ADD PRODUCT
+          </h1>
+          <label for="title" class="form_label">
+            TITLE:
+            <input type="text" name="title" class="form_tB" />
+          </label>
+
+          <label for="id" class="form_label">
+            ID:
+            <input type="text" name="id" id="id" class="form_tB" />
+          </label>
+
+
+          <button class="form_btn" type="submit">+Add Product</button>
+        </form>
+
+      </center>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: url("../media/img/geometric-leaves/geometric-leaves.png") repeat; }
+
+.nav {
+  width: 100vw;
+  background-color: #111;
+  color: #fff; }
+  .nav .nav_center {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; }
+    .nav .nav_center .nav_list {
+      width: 20%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .nav .nav_center .nav_list .nav_list_item {
+        list-style: none; }
+        .nav .nav_center .nav_list .nav_list_item .nav_list_link {
+          text-decoration: none;
+          color: #fff; }
+
+.form_product {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 1rem;
+  text-align: left;
+  margin-top: 4rem;
+  border: 1.5px solid #353535;
+  border-radius: 4px;
+  background-color: #fff; }
+
+.form_header {
+  padding-bottom: 1rem;
+  display: block;
+  color: #111;
+  font-size: 1.7rem; }
+
+.form_label {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem; }
+
+.form_tB {
+  display: block;
+  width: 100%;
+  padding: .5rem; }
+  .form_tB:focus {
+    outline-color: rgba(26, 173, 63, 0.5);
+    outline-width: 1rem; }
+
+.form_btn {
+  padding: .5rem;
+  background-color: #1aad3f;
+  color: #fff;
+  border: 1px solid #1aad3f;
+  border-radius: 4px;
+  cursor: pointer; }
+  .form_btn:active {
+    outline-color: #19a73d; }

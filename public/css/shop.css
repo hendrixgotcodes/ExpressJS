@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: url("../media/img/geometric-leaves/geometric-leaves.png") repeat; }
+
+.nav {
+  width: 100vw;
+  background-color: #111;
+  color: #fff; }
+  .nav .nav_center {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; }
+    .nav .nav_center .nav_list {
+      width: 20%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .nav .nav_center .nav_list .nav_list_item {
+        list-style: none; }
+        .nav .nav_center .nav_list .nav_list_item .nav_list_link {
+          text-decoration: none;
+          color: #fff; }

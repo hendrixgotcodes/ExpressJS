@@ -1,0 +1,29 @@
+.nav {
+    width: 100vw;
+    background-color: #111;
+    color: #fff;
+
+    .nav_center {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+
+        .nav_list {
+            width: 20%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .nav_list_item {
+                list-style: none;
+                
+                .nav_list_link{
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
