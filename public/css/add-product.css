@@ -3,12 +3,9 @@
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  background: url("../media/img/geometric-leaves/geometric-leaves.png") repeat; }
-
 .nav {
   width: 100vw;
-  background-color: #111;
+  background-color: #253527;
   color: #fff; }
   .nav .nav_center {
     width: 100%;
@@ -25,7 +22,10 @@ body {
         list-style: none; }
         .nav .nav_center .nav_list .nav_list_item .nav_list_link {
           text-decoration: none;
-          color: #fff; }
+          color: #fff;
+          transition: color .3s ease; }
+          .nav .nav_center .nav_list .nav_list_item .nav_list_link:hover {
+            color: darkgoldenrod; }
 
 .form_product {
   display: flex;
@@ -54,15 +54,15 @@ body {
   width: 100%;
   padding: .5rem; }
   .form_tB:focus {
-    outline-color: rgba(26, 173, 63, 0.5);
+    outline-color: rgba(184, 134, 11, 0.5);
     outline-width: 1rem; }
 
 .form_btn {
   padding: .5rem;
-  background-color: #1aad3f;
+  background-color: #253527;
   color: #fff;
   border: 1px solid #1aad3f;
   border-radius: 4px;
   cursor: pointer; }
   .form_btn:active {
-    outline-color: #19a73d; }
+    outline-color: #b1810b; }

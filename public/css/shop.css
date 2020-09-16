@@ -3,12 +3,9 @@
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  background: url("../media/img/geometric-leaves/geometric-leaves.png") repeat; }
-
 .nav {
   width: 100vw;
-  background-color: #111;
+  background-color: #253527;
   color: #fff; }
   .nav .nav_center {
     width: 100%;
@@ -25,4 +22,7 @@ body {
         list-style: none; }
         .nav .nav_center .nav_list .nav_list_item .nav_list_link {
           text-decoration: none;
-          color: #fff; }
+          color: #fff;
+          transition: color .3s ease; }
+          .nav .nav_center .nav_list .nav_list_item .nav_list_link:hover {
+            color: darkgoldenrod; }

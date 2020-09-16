@@ -34,21 +34,21 @@
   padding: .5rem;
 
   &:focus {
-    outline-color: rgba($color: #1aad3f, $alpha: .5);
+    outline-color: rgba($color: darkgoldenrod, $alpha: .5);
     outline-width: 1rem;
   }
 }
 
 .form_btn {
   padding: .5rem;
-  background-color: #1aad3f;
+  background-color: #253527;
   color: #fff;
   border: 1px solid #1aad3f;
   border-radius: 4px;
   cursor: pointer;
 
   &:active {
-    outline-color: darken($color: #1aad3f, $amount: 1.4);
+    outline-color: darken($color: darkgoldenrod, $amount: 1.4);
     ;
   }
 }

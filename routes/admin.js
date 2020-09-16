@@ -1,6 +1,7 @@
 const path = require('path');
 const express = require('express');
 const router = express.Router();
+const products = [];
 
 
 router.get("/add-product.html", (req, res, next) => {
@@ -11,9 +12,14 @@ router.get("/add-product.html", (req, res, next) => {
 //     res.status(302).redirect('')
 // })
 
-router.post("/submit", (req, res, next) => {
-    console.log(req.body);
+router.post("/add-product.html", (req, res, next) => {
+    // console.log(req.body);
+    products.push({
+        title: req.body.productTitle,
+        id: req.body.productId
+    });
     res.redirect("/shop.html");
 });
 
-module.exports = router;
+module.exports.routes = router;
+module.exports.products = products;

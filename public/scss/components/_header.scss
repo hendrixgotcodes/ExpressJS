@@ -1,6 +1,6 @@
 .nav {
     width: 100vw;
-    background-color: #111;
+    background-color: #253527;
     color: #fff;
 
     .nav_center {
@@ -18,10 +18,15 @@
 
             .nav_list_item {
                 list-style: none;
-                
-                .nav_list_link{
+
+                .nav_list_link {
                     text-decoration: none;
                     color: #fff;
+                    transition: color .3s ease;
+
+                    &:hover {
+                        color: darkgoldenrod;
+                    }
                 }
             }
         }
