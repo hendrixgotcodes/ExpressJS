@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title My Shop
+        link(rel="stylesheet", href="../css/shop.css")
+    body
+        header
+            nav.nav
+                center.nav_center
+                    h1.nav_logo Express JS
+                    ul.nav_list
+                        li.nav_list_item
+                            a.nav_list_link(href="../shop.html") Shop
+                        li.nav_list_item
+                            a.nav_list_link(href="./admin/add-product.html") Add Products
+        main.content
+            center
+                if prod.length > 0
+                    each product in prod
+                        div.card
+                            img.card_img(src= "https://www.bakhabarkissan.com/wp-content/uploads/2018/09/29918.jpg", alt="Pic of tomato")
+                            div.card_labels
+                                label.card_label Name: #{product.title}
+                                labl.card_label Id: #{product.id}
+                            button.card_btn +Add to cart
+                else
+                    h1.primary_header No item in database #{prod.length}
